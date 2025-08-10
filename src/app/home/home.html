@@ -1,1 +1,6 @@
 <p>home works!</p>
+<app-greetings [message]="homeMessage()" />
+<app-todos/>
+<input type="text" (keyup)="keyUpHandler($event)">
+
+<app-counter />
